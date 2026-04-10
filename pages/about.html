@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Em desenvolvimento | MovieArcade</title>
+
+  <!-- Fonte -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="../assets/css/style.css" />
+
+  <style>
+    .dev-page {
+      width: min(100% - 48px, var(--max-width));
+      margin: 0 auto;
+      min-height: calc(100vh - 120px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 56px 0 40px;
+    }
+
+    .dev-content {
+      width: 100%;
+      max-width: 1100px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 28px;
+      text-align: center;
+    }
+
+    .dev-title {
+      font-size: clamp(2.2rem, 5vw, 4.2rem);
+      line-height: 1.05;
+      font-weight: 800;
+      letter-spacing: -0.04em;
+      color: var(--text);
+    }
+
+    .dev-title span {
+      color: var(--orange);
+      text-shadow: 0 0 18px rgba(255, 122, 0, 0.16);
+    }
+
+    .dev-text {
+      max-width: 760px;
+      color: var(--text-soft);
+      font-size: clamp(1rem, 2vw, 1.15rem);
+      line-height: 1.8;
+    }
+
+    .dev-media {
+      width: min(60vw, 600px);
+      border-radius: 28px;
+      padding: 12px;
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      background: linear-gradient(
+        180deg,
+        rgba(12, 15, 21, 0.95),
+        rgba(7, 9, 13, 0.98)
+      );
+      box-shadow: var(--shadow);
+    }
+
+    .dev-video {
+      width: 100%;
+      display: block;
+      border-radius: 20px;
+      filter: brightness(0.9) contrast(1.03);
+    }
+
+    .dev-actions {
+      display: flex;
+      justify-content: center;
+    }
+
+    @media (max-width: 768px) {
+      .dev-page {
+        width: min(100% - 24px, var(--max-width));
+        padding: 40px 0 32px;
+      }
+
+      .dev-media {
+        width: 100%;
+        padding: 8px;
+      }
+
+      .dev-actions .btn {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <!-- CONTEÚDO -->
+  <main class="dev-page">
+    <section class="dev-content">
+
+      <h1 class="dev-title">
+        Esta página ainda está em <span>desenvolvimento</span>
+      </h1>
+
+      <p class="dev-text">
+        Puxa, essa página ainda está em desenvolvimento. Volte novamente em breve!
+      </p>
+
+      <div class="dev-media">
+        <video class="dev-video" autoplay loop muted playsinline>
+          <source src="../assets/img/anora.mp4" type="video/mp4" />
+        </video>
+      </div>
+
+      <div class="dev-actions">
+        <a href="../index.html" class="btn btn-primary">Voltar</a>
+      </div>
+
+    </section>
+  </main>
+
+</body>
+</html>
