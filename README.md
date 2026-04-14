@@ -2,9 +2,9 @@
 
 MovieArcade is a personal front-end project that combines **cinema, visual design, and interactive ideas** into a single experience.
 
-Instead of being just a movie catalog, the project is built as a **content-driven feed**, with highlights, lists, reviews, and a future **arcade section** focused on mini-games inspired by films.
-🔗 Live preview: (https://devkevinsramos.github.io/moviearcade/index.html)
----
+Instead of being just a movie catalog, the project is built as a content-driven feed, with highlights, lists, reviews, and a future arcade section focused on mini-games inspired by films.
+
+[🔗 Live preview](https://devkevinsramos.github.io/moviearcade/index.html)-
 
 ## 🚧 Project Status
 
