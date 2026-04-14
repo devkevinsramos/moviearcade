@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Fundo -->
+  <rect width="64" height="64" rx="14" fill="#05070a"/>
+
+  <!-- Grupo centralizado -->
+  <g transform="translate(0, 2)">
+    
+    <!-- Letra M -->
+    <text x="50%" y="50%" text-anchor="middle"
+          dominant-baseline="middle"
+          font-family="Arial, sans-serif"
+          font-size="34"
+          font-weight="700"
+          fill="#f3f6fb">
+      M
+    </text>
+
+    <!-- Estrela ajustada -->
+    <polygon
+      points="44,14 46,19 52,19 47.5,22.5 49,28 44,24.8 39,28 40.5,22.5 36,19 42,19"
+      fill="#ff6a00"/>
+      
+  </g>
+</svg>
