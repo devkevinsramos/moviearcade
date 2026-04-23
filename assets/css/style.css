@@ -454,6 +454,45 @@ main {
 
 
 /* ==================================================
+   PADRONIZAÇÃO DE HOVER
+================================================== */
+
+/* Levitação simples para títulos */
+.title-hover {
+  display: inline-block;
+  width: fit-content;
+  transition: transform 0.25s ease;
+}
+
+.title-hover:hover {
+  transform: translateY(-4px);
+}
+
+/* Base visual dos cards */
+.feed-card,
+.extra-card,
+.arcade-card,
+.featured-card {
+  border: 1px solid var(--border);
+  background: #0b0f14;
+  box-shadow: var(--shadow);
+  transition:
+    transform 0.25s ease,
+    border-color 0.25s ease,
+    background 0.25s ease;
+}
+
+.feed-card:hover,
+.extra-card:hover,
+.arcade-card:hover,
+.featured-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(255, 94, 0, 0.14);
+  background: #10151c;
+}
+
+
+/* ==================================================
    BADGES E RÓTULOS
 ================================================== */
 
@@ -498,10 +537,7 @@ main {
   grid-template-columns: minmax(260px, 380px) minmax(0, 1fr);
   gap: 28px;
   padding: 18px;
-  border: 1px solid var(--border);
   border-radius: 30px;
-  background: #0b0f14;
-  box-shadow: var(--shadow);
 }
 
 .featured-media {
@@ -517,6 +553,12 @@ main {
   height: 100%;
   display: block;
   object-fit: cover;
+  transition: transform 0.35s ease, filter 0.35s ease;
+}
+
+.featured-card:hover .featured-media img {
+  transform: scale(1.02);
+  filter: brightness(1.04);
 }
 
 .featured-content {
@@ -570,20 +612,7 @@ main {
 
 .feed-card {
   padding: 24px;
-  border: 1px solid var(--border);
   border-radius: 24px;
-  background: #0b0f14;
-  box-shadow: var(--shadow);
-  transition:
-    transform 0.25s ease,
-    border-color 0.25s ease,
-    background 0.25s ease;
-}
-
-.feed-card:hover {
-  transform: translateY(-4px);
-  border-color: rgba(255, 94, 0, 0.14);
-  background: #10151c;
 }
 
 .feed-card h3 {
@@ -677,59 +706,6 @@ main {
 
 
 /* ==================================================
-   ARCADE
-================================================== */
-
-.arcade-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 20px;
-}
-
-.arcade-card {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  padding: 24px;
-  border: 1px solid var(--border);
-  border-radius: 24px;
-  background: #0b0f14;
-  box-shadow: var(--shadow);
-  transition:
-    transform 0.25s ease,
-    border-color 0.25s ease,
-    background 0.25s ease;
-}
-
-.arcade-card:hover {
-  transform: translateY(-4px);
-  border-color: rgba(255, 94, 0, 0.14);
-  background: #10151c;
-}
-
-.arcade-card h3 {
-  font-size: 1.25rem;
-  line-height: 1.2;
-  font-weight: 800;
-  letter-spacing: -0.03em;
-  margin-bottom: 10px;
-}
-
-.arcade-card p {
-  color: var(--text-soft);
-  font-size: 0.98rem;
-  line-height: 1.75;
-  margin-bottom: 20px;
-  flex-grow: 1;
-}
-
-/* Badge dentro dos cards de arcade */
-.arcade-card .section-badge {
-  margin-top: auto;
-}
-
-
-/* ==================================================
    EXTRAS / DESTAQUES
 ================================================== */
 
@@ -744,20 +720,7 @@ main {
   flex-direction: column;
   height: 100%;
   padding: 22px;
-  border: 1px solid var(--border);
   border-radius: 24px;
-  background: #0b0f14;
-  box-shadow: var(--shadow);
-  transition:
-    transform 0.25s ease,
-    border-color 0.25s ease,
-    background 0.25s ease;
-}
-
-.extra-card:hover {
-  transform: translateY(-4px);
-  border-color: rgba(255, 94, 0, 0.14);
-  background: #10151c;
 }
 
 .extra-card h3 {
@@ -783,68 +746,117 @@ main {
 
 
 /* ==================================================
+   ARCADE
+================================================== */
+
+.arcade-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.arcade-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 24px;
+  border-radius: 24px;
+}
+
+.arcade-card h3 {
+  font-size: 1.25rem;
+  line-height: 1.2;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  margin-bottom: 10px;
+}
+
+.arcade-card p {
+  color: var(--text-soft);
+  font-size: 0.98rem;
+  line-height: 1.75;
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+
+/* Badge dentro dos cards de arcade */
+.arcade-card .section-badge {
+  margin-top: auto;
+}
+
+
+/* ==================================================
+   ESTRELAS DECORATIVAS
+================================================== */
+
+.stars-divider {
+  margin: 6px 0 6px;
+  padding: 18px 0 0;
+}
+
+.stars-divider-track {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+}
+
+.star-depth {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.7rem;
+  color: rgba(243, 246, 251, 0.16);
+  text-shadow: 0 10px 24px rgba(0, 0, 0, 0.28);
+  user-select: none;
+  pointer-events: none;
+  transition: transform 0.25s ease;
+}
+
+.star-depth:hover {
+  transform: translateY(-4px);
+}
+
+
+/* ==================================================
    FOOTER
 ================================================== */
 
 .footer {
   width: min(100% - 40px, var(--max-width));
-  margin: 80px auto 30px;
-  padding-top: 28px;
+  margin: 56px auto 30px;
+  padding-top: 26px;
   border-top: 1px solid var(--border);
 }
 
-/* Conteúdo principal */
-.footer-content {
+.footer-bottom {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 40px;
-  padding-bottom: 24px;
-}
-
-/* Bloco esquerdo */
-.footer-brand {
-  max-width: 520px;
-}
-
-.footer-quote {
-  margin-bottom: 10px;
-  font-size: 1.1rem;
-  font-weight: 700;
-  color: var(--text);
+  gap: 24px;
 }
 
 .footer-description {
+  max-width: 840px;
   color: var(--text-soft);
   font-size: 0.96rem;
   line-height: 1.8;
 }
 
-/* Linha inferior */
-.footer-bottom {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 20px;
-  padding-top: 20px;
-  border-top: 1px solid rgba(255, 255, 255, 0.05);
-}
-
-.footer-bottom p {
-  color: var(--text-soft);
-  font-size: 0.94rem;
-}
-
 .footer-top-link {
+  flex-shrink: 0;
   color: var(--text-soft);
   text-decoration: none;
   font-size: 0.94rem;
   font-weight: 600;
-  transition: color 0.25s ease;
+  transition:
+    color 0.25s ease,
+    transform 0.25s ease;
 }
 
 .footer-top-link:hover {
   color: var(--orange);
+  transform: translateY(-2px);
 }
 
 
@@ -1150,20 +1162,24 @@ main {
     width: 100%;
   }
 
+  .stars-divider-track {
+    gap: 14px;
+  }
+
+  .star-depth {
+    font-size: 1.45rem;
+  }
+
   /* Footer */
   .footer {
     width: min(100% - 24px, var(--max-width));
     margin-top: 56px;
   }
 
-  .footer-content {
-    flex-direction: column;
-    gap: 24px;
-  }
-
   .footer-bottom {
     flex-direction: column;
     align-items: flex-start;
+    gap: 12px;
   }
 }
 
@@ -1238,6 +1254,19 @@ main {
   .section-badge {
     font-size: 0.76rem;
     padding: 6px 12px;
+  }
+
+  .stars-divider-track {
+    gap: 10px;
+  }
+
+  .star-depth {
+    font-size: 1.2rem;
+  }
+
+  .footer-description,
+  .footer-top-link {
+    font-size: 0.92rem;
   }
 }
 

@@ -50,10 +50,9 @@
     <!-- Abertura da home -->
     <section class="home-hero">
       <div class="home-hero-content">
-        <h1><span class="accent">MovieArcade</span> Feed</h1>
+        <h1 class="title-hover"><span class="accent">MovieArcade</span> Feed</h1>
         <p>
-          Um espaço para falar sobre cinema, listas e expor ideias que depois viram minigames.
-          Divirta-se! Espero que goste da experiência.
+          Um espaço criado para falar sobre e interagir com cinema. Com reviews, listas e minigames, temos um grande acervo para você explorar! Divirta-se.
         </p>
       </div>
     </section>
@@ -61,7 +60,7 @@
     <!-- Destaque principal -->
     <section class="featured-post">
       <div class="section-heading section-heading-featured">
-        <span class="section-badge">Destaque da semana</span>
+        <span class="section-badge">Filme destaque</span>
       </div>
 
       <article class="featured-card">
@@ -70,7 +69,7 @@
         </div>
 
         <div class="featured-content">
-          <h2>Devoradores de Estrela</h2>
+          <h2>Devoradores de Estrelas</h2>
 
           <p>
             Devoradores de Estrelas mistura ficção científica, isolamento e sobrevivência de um jeito muito envolvente.
@@ -91,8 +90,8 @@
     <!-- Posts recentes -->
     <section class="feed-section">
       <div class="section-heading">
-        <h2>Posts recentes</h2>
-        <p>As novidades do site, com reviews, listas, minigames e mais!</p>
+        <h2 class="title-hover">Posts recentes</h2>
+        <p>As novidades do site, clique em ver mais para descobrir novos posts!</p>
       </div>
 
       <div class="feed-list" id="feedList">
@@ -119,8 +118,8 @@
 
         <article class="feed-card feed-card-hidden">
           <p class="card-type">Review</p>
-          <h3>Pecadores é o filme da década?</h3>
-          <p>A obra de Ryan Coogler resgistrou recorde em indicações no Oscar.</p>
+          <h3>A Rede Soical é um grande filme?</h3>
+          <p>A obra de David Fincher conta sobre a origem do facebook.</p>
           <a href="sorry.html" class="feed-link">Ver post</a>
         </article>
       </div>
@@ -136,10 +135,34 @@
       </button>
     </section>
 
+    <!-- Posts destaques -->
+    <section class="extra-section">
+      <div class="section-heading">
+        <h2 class="title-hover">Destaques</h2>
+        <p>Opiniões e visões pessoais sobre o que consumi de cinema até aqui.</p>
+      </div>
+
+      <div class="extra-grid">
+        <article class="extra-card">
+          <p class="card-type">Favoritos</p>
+          <h3>Os meus filmes favoritos</h3>
+          <p>Não é o ranking, são apenas filmes que eu sou apaixonado.</p>
+          <a href="sorry.html" class="btn btn-secondary">Ver lista</a>
+        </article>
+
+        <article class="extra-card">
+          <p class="card-type">Reviews</p>
+          <h3>Minhas reviews</h3>
+          <p>Dissertando um pouco sobre filmes que me fazem reletir sobre eles.</p>
+          <a href="sorry.html" class="btn btn-secondary">Ver lista</a>
+        </article>
+      </div>
+    </section>
+
     <!-- Área arcade -->
     <section class="arcade-section">
       <div class="section-heading">
-        <h2><span class="accent">Arcade</span></h2>
+        <h2 class="title-hover"><span class="accent">Arcade</span></h2>
         <p>Transformando cinema em interação, informação e diversão fora das telonas.</p>
       </div>
 
@@ -164,27 +187,14 @@
       </div>
     </section>
 
-    <!-- Blocos extras -->
-    <section class="extra-section">
-      <div class="section-heading">
-        <h2>Destaques</h2>
-        <p>Opiniões e visões pessoais sobre o que consumi de cinema até aqui.</p>
-      </div>
-
-      <div class="extra-grid">
-        <article class="extra-card">
-          <p class="card-type">Favoritos</p>
-          <h3>Os meus filmes favoritos</h3>
-          <p>Não é o ranking, são apenas filmes que eu sou apaixonado.</p>
-          <a href="sorry.html" class="btn btn-secondary">Ver lista</a>
-        </article>
-
-        <article class="extra-card">
-          <p class="card-type">Reviews</p>
-          <h3>Minhas reviews</h3>
-          <p>Dissertando um pouco sobre filmes que me fazem reletir sobre eles.</p>
-          <a href="sorry.html" class="btn btn-secondary">Ver lista</a>
-        </article>
+    <!-- Estrelas decorativas -->
+    <section class="stars-divider" aria-hidden="true">
+      <div class="stars-divider-track">
+        <span class="star-depth">★</span>
+        <span class="star-depth">★</span>
+        <span class="star-depth">★</span>
+        <span class="star-depth">★</span>
+        <span class="star-depth">★</span>
       </div>
     </section>
 
@@ -192,18 +202,10 @@
 
   <!-- Rodapé -->
   <footer class="footer">
-    <div class="footer-content">
-      <div class="footer-brand">
-        <p class="footer-quote">Th-th-th-that's all folks!</p>
-        <p class="footer-description">
-          Um projeto interativo sobre cinema, feito por um desenvolvedor que ama tecnologia e cinema.
-        </p>
-      </div>
-    </div>
-
     <div class="footer-bottom">
-      <p>
-        Desenvolvido por
+      <p class="footer-description">
+        Um projeto interativo sobre cinema, feito por um desenvolvedor que ama tecnologia e cinema.
+        <br>Desenvolvido por
         <a
           href="https://github.com/devkevinsramos"
           target="_blank"
