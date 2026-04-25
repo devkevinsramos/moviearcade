@@ -1,72 +1,51 @@
-# 🎬 MovieArcade
+# MovieArcade
 
-MovieArcade is a personal front-end project that combines **cinema, visual design, and interactive ideas** into a single experience.
+A personal front-end project that combines cinema, visual design, and interactive ideas into one experience.
 
-Instead of being just a movie catalog, the project is built as a content-driven feed, with highlights, lists, reviews, and a future arcade section focused on mini-games inspired by films.
+Instead of being only a movie catalog, MovieArcade is built as a content-driven interface with highlights, lists, reviews, and future interactive sections inspired by films.
 
-[🔗 Live preview](https://devkevinsramos.github.io/moviearcade/index.html)-
+Live preview: https://devkevinsramos.github.io/moviearcade/index.html
 
-## 🚧 Project Status
+## About
 
-Currently in development.
+MovieArcade was created to explore front-end development through a project with a strong visual identity.
 
-The core layout and structure are already implemented, and new features, pages, and improvements are being added continuously.
+The idea is to build a movie-focused website that works like a visual feed, mixing curated content, personal reviews, lists, and interactive ideas.
 
----
+## Features
 
-## 🎯 Purpose
+The project includes:
 
-- Strengthen my skills in **HTML, CSS, and JavaScript**
-- Build a **visually consistent and original interface**
-- Practice layout composition and UI structure
-- Create a project that evolves from static pages to interactive experiences
+- feed-style homepage
+- featured content section
+- structured content cards
+- reviews and lists sections
+- arcade section concept
+- responsive layout
 
----
+## Technologies
 
-## 🧩 Current Features
+- HTML
+- CSS
+- JavaScript
 
-- Feed-style homepage  
-- Highlight section (featured content)  
-- Structured content cards (reviews, lists, ideas)  
-- Arcade section (concept phase)  
-- Responsive layout  
+## Future improvements
 
----
+Planned improvements include:
 
-## 🛠️ Technologies
+- dynamic content with JavaScript
+- interactive mini-games
+- better animations and transitions
+- possible API integration for movie data
+- UI/UX refinements
+- performance improvements
 
-- **HTML5**
-- **CSS3**
-- **JavaScript (Vanilla)**
+## Important note
 
----
+This project is part of my learning journey as a developer.
 
-## 🚀 Future Improvements
+It is still under development and may receive layout changes, new pages, interactive features, and improvements over time.
 
-- Dynamic content with JavaScript  
-- Interactive mini-games (Arcade section)  
-- Better animations and transitions  
-- Possible API integration for movie data  
-- UI/UX refinements and performance improvements  
+## Status
 
----
-
-## 💡 Concept
-
-MovieArcade is designed as a **visual and interactive space**, where cinema is not only displayed but also explored through:
-
-- curated content  
-- personal insights  
-- interactive elements  
-
----
-
-## 📌 Notes
-
-This project is part of my learning journey as a developer, but it is also being built with a strong focus on **structure, design, and scalability**.
-
-Feedback and suggestions are always welcome!
-
----
-
-👨‍💻 Developed by **[@devkevinsramos](https://github.com/devkevinsramos)**
+Currently under development.
