@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Versus | MovieArcade</title>
+  <meta name="theme-color" content="#050505">
+  <link rel="icon" type="image/svg+xml" href="../../assets/img/logo_m.svg">
+  <link rel="apple-touch-icon" href="../../assets/img/logo_m.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../assets/css/style.css">
+  <link rel="stylesheet" href="../../assets/css/arcades.css">
+</head>
+<body data-page="arcades">
+  <header class="site-header">
+    <nav class="page nav">
+      <a class="brand" data-link="index" href="../../index.html">
+        <img class="brand-logo" src="../../assets/img/logo_stars.svg" alt="MovieArcade">
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Abrir menu" data-menu-toggle>☰</button>
+      <div class="nav-links" data-nav-links>
+        <a class="nav-link" data-link="home" href="../../pages/home.html">Home</a>
+        <a class="nav-link" data-link="arcades" href="../../pages/arcades.html">Arcades</a>
+        <a class="nav-link" data-link="movies" href="../../pages/movies.html">Movies</a>
+        <a class="nav-link" data-link="about" href="../../pages/about.html">About</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main page">
+    <!-- Versus intro -->
+    <section class="reveal">
+      <p class="eyebrow">choose your fighter</p>
+      <h1 class="section-title">Versus</h1>
+      <p class="section-subtitle">Escolha até 10 filmes ou gere uma seleção aleatória. Dois filmes aparecem lado a lado: o escolhido permanece, o outro é trocado até sobrar o campeão.</p>
+    </section>
+
+    <!-- Versus layout -->
+    <section class="selector-layout section-spacing">
+      <aside class="panel selector-panel">
+        <input class="search" data-movie-search placeholder="Pesquisar filmes para o versus...">
+
+        <div class="actions">
+          <button class="btn btn-primary" data-start-versus>Iniciar duelo</button>
+          <button class="btn btn-ghost" data-random-versus>Seleção aleatória</button>
+          <button class="btn btn-ghost" data-clear-versus>Limpar</button>
+        </div>
+
+        <p class="lead" data-versus-status>Escolha até 10 filmes para começar.</p>
+
+        <div>
+          <h3>Filmes selecionados</h3>
+          <div class="selected-grid" data-selected-grid></div>
+        </div>
+
+        <div>
+          <h3>Adicionar/remover filmes</h3>
+          <div class="pool-grid" data-pool-grid></div>
+          <div class="load-more-row">
+            <button class="btn btn-ghost btn-small" data-load-more-pool>Ver mais sugestões</button>
+          </div>
+        </div>
+      </aside>
+
+      <section class="versus-arena" data-versus-arena></section>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="page footer-row">
+      <span>Made for movie lovers.</span>
+      <span>Developed by <a href="https://github.com/devkevinsramos" target="_blank" rel="noreferrer">@devkevinsramos</a></span>
+    </div>
+  </footer>
+  <script src="../../assets/js/script.js"></script>
+  <script src="../../assets/js/api.js"></script>
+  <script src="../../assets/js/versus.js"></script>
+</body>
+</html>

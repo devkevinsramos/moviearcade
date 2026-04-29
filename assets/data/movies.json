@@ -1,0 +1,2004 @@
+[
+  {
+    "id": "marty-supreme",
+    "tmdbId": 1317288,
+    "title": "Marty Supreme",
+    "year": 2025,
+    "director": "Josh Safdie",
+    "actors": [
+      "Timothée Chalamet",
+      "Gwyneth Paltrow",
+      "Odessa A'zion",
+      "Tyler Okonma"
+    ],
+    "synopsis": "Marty Mauser é um jovem prodígio do tênis de mesa que sonha alto e tenta provar seu valor em um cenário competitivo, intenso e cheio de pressão.",
+    "runtime": 149,
+    "genres": [
+      "Drama",
+      "Suspense"
+    ],
+    "rating": 7.4,
+    "poster": "",
+    "featured": true,
+    "arcade": true
+  },
+  {
+    "id": "2001-a-space-odyssey",
+    "tmdbId": 62,
+    "title": "2001: Uma Odisseia no Espaço",
+    "year": 1968,
+    "director": "Stanley Kubrick",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Uma jornada enigmática sobre evolução, tecnologia, inteligência artificial e o desconhecido.",
+    "runtime": 120,
+    "genres": [
+      "Ficção científica",
+      "Aventura"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": true,
+    "arcade": true
+  },
+  {
+    "id": "se7en",
+    "tmdbId": 807,
+    "title": "Seven",
+    "year": 1995,
+    "director": "David Fincher",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Dois detetives investigam crimes brutais inspirados nos sete pecados capitais em uma jornada cada vez mais sombria.",
+    "runtime": 120,
+    "genres": [
+      "Crime",
+      "Suspense"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": true,
+    "arcade": true
+  },
+  {
+    "id": "pulp-fiction",
+    "tmdbId": 680,
+    "title": "Pulp Fiction",
+    "year": 1994,
+    "director": "Quentin Tarantino",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Criminosos, boxeadores e figuras excêntricas se cruzam em uma narrativa não linear marcada por diálogos e violência estilizada.",
+    "runtime": 120,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": true,
+    "arcade": true
+  },
+  {
+    "id": "the-social-network",
+    "tmdbId": 37799,
+    "title": "A Rede Social",
+    "year": 2010,
+    "director": "David Fincher",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "A criação do Facebook revela ambição, amizade quebrada e disputas jurídicas por trás de uma das maiores redes sociais do mundo.",
+    "runtime": 120,
+    "genres": [
+      "Drama",
+      "Biografia"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "fight-club",
+    "tmdbId": 550,
+    "title": "Clube da Luta",
+    "year": 1999,
+    "director": "David Fincher",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Um homem entediado conhece Tyler Durden e entra em um clube secreto que transforma frustração, violência e identidade em caos.",
+    "runtime": 120,
+    "genres": [
+      "Drama",
+      "Suspense"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "the-matrix",
+    "tmdbId": 603,
+    "title": "Matrix",
+    "year": 1999,
+    "director": "Lana Wachowski, Lilly Wachowski",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Um hacker descobre que a realidade é uma simulação controlada por máquinas e precisa escolher entre despertar ou permanecer iludido.",
+    "runtime": 120,
+    "genres": [
+      "Ficção científica",
+      "Ação"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "interstellar",
+    "tmdbId": 157336,
+    "title": "Interestelar",
+    "year": 2014,
+    "director": "Christopher Nolan",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Com a Terra em colapso, astronautas atravessam um buraco de minhoca em busca de um novo lar para a humanidade.",
+    "runtime": 120,
+    "genres": [
+      "Ficção científica",
+      "Drama"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "inception",
+    "tmdbId": 27205,
+    "title": "A Origem",
+    "year": 2010,
+    "director": "Christopher Nolan",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Um especialista em invadir sonhos recebe a missão de implantar uma ideia na mente de um herdeiro poderoso.",
+    "runtime": 120,
+    "genres": [
+      "Ficção científica",
+      "Ação"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "the-dark-knight",
+    "tmdbId": 155,
+    "title": "Batman: O Cavaleiro das Trevas",
+    "year": 2008,
+    "director": "Christopher Nolan",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Batman enfrenta o Coringa, que transforma Gotham em um campo de dilemas morais, caos e medo.",
+    "runtime": 120,
+    "genres": [
+      "Ação",
+      "Crime"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "the-godfather",
+    "tmdbId": 238,
+    "title": "O Poderoso Chefão",
+    "year": 1972,
+    "director": "Francis Ford Coppola",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "A família Corleone tenta preservar seu poder enquanto Michael é puxado para dentro do império familiar.",
+    "runtime": 120,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "goodfellas",
+    "tmdbId": 769,
+    "title": "Os Bons Companheiros",
+    "year": 1990,
+    "director": "Martin Scorsese",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "A trajetória de Henry Hill revela o fascínio, a violência e a decadência de uma vida dentro da máfia.",
+    "runtime": 120,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "taxi-driver",
+    "tmdbId": 103,
+    "title": "Taxi Driver",
+    "year": 1976,
+    "director": "Martin Scorsese",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Um veterano solitário trabalha como taxista em Nova York e mergulha em paranoia, isolamento e violência.",
+    "runtime": 120,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "city-of-god",
+    "tmdbId": 598,
+    "title": "Cidade de Deus",
+    "year": 2002,
+    "director": "Fernando Meirelles",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "A violência na Cidade de Deus é vista pelos olhos de Buscapé, jovem que tenta escapar por meio da fotografia.",
+    "runtime": 120,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "parasite",
+    "tmdbId": 496243,
+    "title": "Parasita",
+    "year": 2019,
+    "director": "Bong Joon Ho",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Uma família pobre se infiltra na vida de uma família rica, revelando tensões sociais em tom de humor e tragédia.",
+    "runtime": 120,
+    "genres": [
+      "Drama",
+      "Suspense"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "the-shawshank-redemption",
+    "tmdbId": 278,
+    "title": "Um Sonho de Liberdade",
+    "year": 1994,
+    "director": "Frank Darabont",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Um banqueiro condenado à prisão perpétua mantém a esperança viva dentro de um sistema brutal.",
+    "runtime": 120,
+    "genres": [
+      "Drama"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "project-hail-mary",
+    "tmdbId": 687163,
+    "title": "Devoradores de Estrela",
+    "year": 2026,
+    "director": "Christopher Miller, Phil Lord",
+    "actors": [
+      "Ryan Gosling",
+      "Sandra Hüller",
+      "Milana Vayntrub",
+      "Lionel Boyce"
+    ],
+    "synopsis": "Ryland Grace acorda sozinho em uma espaçonave, sem memória de sua missão, e precisa descobrir como salvar a humanidade de uma ameaça cósmica.",
+    "runtime": 157,
+    "genres": [
+      "Ficção científica",
+      "Aventura"
+    ],
+    "rating": 8.2,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "a-clockwork-orange",
+    "tmdbId": 185,
+    "title": "Laranja Mecânica",
+    "year": 1971,
+    "director": "Stanley Kubrick",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Em uma sociedade distópica, um jovem violento passa por um experimento que questiona liberdade e controle.",
+    "runtime": 120,
+    "genres": [
+      "Ficção científica",
+      "Drama"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "the-shining",
+    "tmdbId": 694,
+    "title": "O Iluminado",
+    "year": 1980,
+    "director": "Stanley Kubrick",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Um escritor aceita cuidar de um hotel isolado no inverno, mas o lugar desperta forças perturbadoras.",
+    "runtime": 120,
+    "genres": [
+      "Terror",
+      "Suspense"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "memento",
+    "tmdbId": 77,
+    "title": "Amnésia",
+    "year": 2000,
+    "director": "Christopher Nolan",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Um homem incapaz de formar novas memórias tenta investigar a morte da esposa usando tatuagens e anotações.",
+    "runtime": 120,
+    "genres": [
+      "Mistério",
+      "Suspense"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "inglourious-basterds",
+    "tmdbId": 16869,
+    "title": "Bastardos Inglórios",
+    "year": 2009,
+    "director": "Quentin Tarantino",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Durante a Segunda Guerra Mundial, soldados e uma dona de cinema planejam vingança contra o regime nazista.",
+    "runtime": 120,
+    "genres": [
+      "Guerra",
+      "Drama"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "django-unchained",
+    "tmdbId": 68718,
+    "title": "Django Livre",
+    "year": 2012,
+    "director": "Quentin Tarantino",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Um ex-escravizado se une a um caçador de recompensas para resgatar sua esposa de um cruel fazendeiro.",
+    "runtime": 120,
+    "genres": [
+      "Faroeste",
+      "Drama"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "kill-bill-volume-1",
+    "tmdbId": 24,
+    "title": "Kill Bill: Volume 1",
+    "year": 2003,
+    "director": "Quentin Tarantino",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Após sobreviver a um massacre, uma assassina desperta em busca de vingança contra seus antigos companheiros.",
+    "runtime": 120,
+    "genres": [
+      "Ação",
+      "Crime"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "kill-bill-volume-2",
+    "tmdbId": 393,
+    "title": "Kill Bill: Volume 2",
+    "year": 2004,
+    "director": "Quentin Tarantino",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "A vingança da Noiva continua enquanto ela se aproxima do confronto final com Bill e seu próprio passado.",
+    "runtime": 120,
+    "genres": [
+      "Ação",
+      "Crime"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "reservoir-dogs",
+    "tmdbId": 500,
+    "title": "Cães de Aluguel",
+    "year": 1992,
+    "director": "Quentin Tarantino",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Após um assalto dar errado, criminosos reunidos em um esconderijo tentam descobrir quem é o traidor.",
+    "runtime": 120,
+    "genres": [
+      "Crime",
+      "Suspense"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "the-wolf-of-wall-street",
+    "tmdbId": 106646,
+    "title": "O Lobo de Wall Street",
+    "year": 2013,
+    "director": "Martin Scorsese",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "A ascensão e queda de Jordan Belfort mostra excesso, fraude, ambição e o lado mais selvagem do mercado financeiro.",
+    "runtime": 120,
+    "genres": [
+      "Biografia",
+      "Comédia"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "shutter-island",
+    "tmdbId": 11324,
+    "title": "Ilha do Medo",
+    "year": 2010,
+    "director": "Martin Scorsese",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Dois agentes investigam o desaparecimento de uma paciente em um hospital psiquiátrico isolado.",
+    "runtime": 120,
+    "genres": [
+      "Mistério",
+      "Suspense"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "the-departed",
+    "tmdbId": 1422,
+    "title": "Os Infiltrados",
+    "year": 2006,
+    "director": "Martin Scorsese",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Um policial infiltrado e um criminoso infiltrado na polícia tentam descobrir a identidade um do outro.",
+    "runtime": 120,
+    "genres": [
+      "Crime",
+      "Suspense"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "oldboy",
+    "tmdbId": 670,
+    "title": "Oldboy",
+    "year": 2003,
+    "director": "Park Chan-wook",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Após anos preso sem explicação, um homem é libertado e busca vingança enquanto descobre uma verdade devastadora.",
+    "runtime": 120,
+    "genres": [
+      "Mistério",
+      "Suspense"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "black-swan",
+    "tmdbId": 44214,
+    "title": "Cisne Negro",
+    "year": 2010,
+    "director": "Darren Aronofsky",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Uma bailarina busca perfeição para o papel principal e mergulha em paranoia, rivalidade e perda de controle.",
+    "runtime": 120,
+    "genres": [
+      "Drama",
+      "Suspense"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "psycho",
+    "tmdbId": 539,
+    "title": "Psicose",
+    "year": 1960,
+    "director": "Alfred Hitchcock",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Uma secretária em fuga se hospeda em um motel isolado comandado por um homem perturbadoramente ligado à mãe.",
+    "runtime": 120,
+    "genres": [
+      "Terror",
+      "Suspense"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "get-out",
+    "tmdbId": 419430,
+    "title": "Corra!",
+    "year": 2017,
+    "director": "Jordan Peele",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Um jovem visita a família da namorada e percebe que a cordialidade esconde algo profundamente ameaçador.",
+    "runtime": 120,
+    "genres": [
+      "Terror",
+      "Suspense"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "mad-max-fury-road",
+    "tmdbId": 76341,
+    "title": "Mad Max: Estrada da Fúria",
+    "year": 2015,
+    "director": "George Miller",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Em um deserto pós-apocalíptico, Furiosa e Max fogem de um tirano em uma perseguição explosiva.",
+    "runtime": 120,
+    "genres": [
+      "Ação",
+      "Aventura"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "jurassic-park",
+    "tmdbId": 329,
+    "title": "Jurassic Park",
+    "year": 1993,
+    "director": "Steven Spielberg",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Um parque com dinossauros clonados sai do controle quando falhas de segurança ameaçam visitantes e cientistas.",
+    "runtime": 120,
+    "genres": [
+      "Aventura",
+      "Ficção científica"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "jaws",
+    "tmdbId": 578,
+    "title": "Tubarão",
+    "year": 1975,
+    "director": "Steven Spielberg",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Uma cidade litorânea entra em pânico quando um enorme tubarão começa a atacar banhistas durante a temporada turística.",
+    "runtime": 120,
+    "genres": [
+      "Suspense",
+      "Terror"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "back-to-the-future",
+    "tmdbId": 105,
+    "title": "De Volta para o Futuro",
+    "year": 1985,
+    "director": "Robert Zemeckis",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Um adolescente viaja acidentalmente ao passado e precisa garantir que seus pais se apaixonem para salvar seu futuro.",
+    "runtime": 120,
+    "genres": [
+      "Aventura",
+      "Comédia"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "ferris-buellers-day-off",
+    "tmdbId": 9377,
+    "title": "Curtindo a Vida Adoidado",
+    "year": 1986,
+    "director": "John Hughes",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Um estudante carismático mata aula com os amigos e transforma um dia livre em uma aventura pela cidade.",
+    "runtime": 120,
+    "genres": [
+      "Comédia"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "central-station",
+    "tmdbId": 666,
+    "title": "Central do Brasil",
+    "year": 1998,
+    "director": "Walter Salles",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Uma mulher que escreve cartas para analfabetos acompanha um garoto em busca do pai pelo interior do Brasil.",
+    "runtime": 120,
+    "genres": [
+      "Drama"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "im-still-here",
+    "tmdbId": 1000837,
+    "title": "Ainda Estou Aqui",
+    "year": 2024,
+    "director": "Walter Salles",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Durante a ditadura militar brasileira, uma família enfrenta a ausência, a violência política e a luta pela memória.",
+    "runtime": 120,
+    "genres": [
+      "Drama",
+      "Histórico"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "the hunter games",
+    "tmdbId": 70160,
+    "title": "Jogos Vorazes",
+    "year": 2012,
+    "director": "Gary Ross",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Num futuro dominado por um regime totalitário, jovens são forçados a lutar até a morte em um evento anual.",
+    "runtime": 120,
+    "genres": [
+      "Ficção científica",
+      "Aventura"
+    ],
+    "rating": 7.4,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "the-exorcist",
+    "tmdbId": 9552,
+    "title": "O Exorcista",
+    "year": 1973,
+    "director": "William Friedkin",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Uma mãe busca ajuda quando sua filha parece tomada por uma força demoníaca aterrorizante.",
+    "runtime": 120,
+    "genres": [
+      "Terror",
+      "Drama"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "monty-python-holy-grail",
+    "tmdbId": 762,
+    "title": "Monty Python: Em Busca do Cálice Sagrado",
+    "year": 1975,
+    "director": "Terry Gilliam, Terry Jones",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "O Rei Arthur e seus cavaleiros partem em uma busca absurda pelo Santo Graal em uma sátira medieval.",
+    "runtime": 120,
+    "genres": [
+      "Comédia",
+      "Aventura"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "carrie",
+    "tmdbId": 7340,
+    "title": "Carrie, a Estranha",
+    "year": 1976,
+    "director": "Brian De Palma",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Uma jovem reprimida e humilhada descobre poderes telecinéticos que explodem em uma noite de vingança.",
+    "runtime": 120,
+    "genres": [
+      "Terror",
+      "Drama"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "star-wars",
+    "tmdbId": 11,
+    "title": "Star Wars: Uma Nova Esperança",
+    "year": 1977,
+    "director": "George Lucas",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Um jovem fazendeiro se junta a rebeldes para enfrentar um império galáctico e descobrir seu destino.",
+    "runtime": 120,
+    "genres": [
+      "Ficção científica",
+      "Aventura"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "alien",
+    "tmdbId": 348,
+    "title": "Alien: O Oitavo Passageiro",
+    "year": 1979,
+    "director": "Ridley Scott",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "A tripulação de uma nave comercial é caçada por uma criatura alienígena mortal.",
+    "runtime": 120,
+    "genres": [
+      "Terror",
+      "Ficção científica"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "empire-strikes-back",
+    "tmdbId": 1891,
+    "title": "O Império Contra-Ataca",
+    "year": 1980,
+    "director": "Irvin Kershner",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Os rebeldes enfrentam o Império enquanto Luke treina e descobre uma verdade marcante sobre seu inimigo.",
+    "runtime": 120,
+    "genres": [
+      "Ficção científica",
+      "Aventura"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "raiders-of-the-lost-ark",
+    "tmdbId": 85,
+    "title": "Indiana Jones e os Caçadores da Arca Perdida",
+    "year": 1981,
+    "director": "Steven Spielberg",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Um arqueólogo aventureiro enfrenta nazistas em busca de uma relíquia bíblica poderosa.",
+    "runtime": 120,
+    "genres": [
+      "Aventura",
+      "Ação"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "blade-runner",
+    "tmdbId": 78,
+    "title": "Blade Runner",
+    "year": 1982,
+    "director": "Ridley Scott",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Um caçador de androides investiga replicantes fugitivos em uma Los Angeles futurista e chuvosa.",
+    "runtime": 120,
+    "genres": [
+      "Ficção científica",
+      "Neo-noir"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "et",
+    "tmdbId": 601,
+    "title": "E.T.: O Extraterrestre",
+    "year": 1982,
+    "director": "Steven Spielberg",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Um garoto ajuda um alienígena perdido a voltar para casa enquanto cria uma amizade inesquecível.",
+    "runtime": 120,
+    "genres": [
+      "Ficção científica",
+      "Família"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "the-thing",
+    "tmdbId": 1091,
+    "title": "O Enigma de Outro Mundo",
+    "year": 1982,
+    "director": "John Carpenter",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Pesquisadores na Antártida enfrentam uma criatura alienígena capaz de imitar qualquer ser vivo.",
+    "runtime": 120,
+    "genres": [
+      "Terror",
+      "Ficção científica"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "return-of-the-jedi",
+    "tmdbId": 1892,
+    "title": "O Retorno de Jedi",
+    "year": 1983,
+    "director": "Richard Marquand",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "A rebelião prepara seu ataque final enquanto Luke tenta salvar Darth Vader do lado sombrio.",
+    "runtime": 120,
+    "genres": [
+      "Ficção científica",
+      "Aventura"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "scarface",
+    "tmdbId": 111,
+    "title": "Scarface",
+    "year": 1983,
+    "director": "Brian De Palma",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Um imigrante cubano constrói um império do crime movido por ambição e excesso.",
+    "runtime": 120,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "terminator",
+    "tmdbId": 218,
+    "title": "O Exterminador do Futuro",
+    "year": 1984,
+    "director": "James Cameron",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Um ciborgue assassino viaja ao passado para eliminar a mãe do futuro líder da resistência.",
+    "runtime": 120,
+    "genres": [
+      "Ação",
+      "Ficção científica"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "aliens",
+    "tmdbId": 679,
+    "title": "Aliens: O Resgate",
+    "year": 1986,
+    "director": "James Cameron",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Ripley retorna ao planeta onde encontrou o alien e enfrenta uma colônia tomada por criaturas.",
+    "runtime": 120,
+    "genres": [
+      "Ação",
+      "Ficção científica"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "terminator-2",
+    "tmdbId": 280,
+    "title": "O Exterminador do Futuro 2",
+    "year": 1991,
+    "director": "James Cameron",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Um exterminador reprogramado protege John Connor de uma ameaça ainda mais avançada.",
+    "runtime": 120,
+    "genres": [
+      "Ação",
+      "Ficção científica"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "silence-of-the-lambs",
+    "tmdbId": 274,
+    "title": "O Silêncio dos Inocentes",
+    "year": 1991,
+    "director": "Jonathan Demme",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Uma agente do FBI busca a ajuda de Hannibal Lecter para capturar um assassino em série.",
+    "runtime": 120,
+    "genres": [
+      "Suspense",
+      "Crime"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "schindlers-list",
+    "tmdbId": 424,
+    "title": "A Lista de Schindler",
+    "year": 1993,
+    "director": "Steven Spielberg",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Um empresário alemão salva judeus durante o Holocausto ao empregar pessoas em sua fábrica.",
+    "runtime": 120,
+    "genres": [
+      "Drama",
+      "Histórico"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "forrest-gump",
+    "tmdbId": 13,
+    "title": "Forrest Gump",
+    "year": 1994,
+    "director": "Robert Zemeckis",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Um homem simples atravessa momentos marcantes da história americana enquanto busca amor e sentido.",
+    "runtime": 120,
+    "genres": [
+      "Drama",
+      "Comédia"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "the-lion-king",
+    "tmdbId": 8587,
+    "title": "O Rei Leão",
+    "year": 1994,
+    "director": "Roger Allers, Rob Minkoff",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Um jovem leão precisa aceitar seu passado e reassumir seu lugar no ciclo da vida.",
+    "runtime": 120,
+    "genres": [
+      "Animação",
+      "Drama"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "before-sunrise",
+    "tmdbId": 76,
+    "title": "Antes do Amanhecer",
+    "year": 1995,
+    "director": "Richard Linklater",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Dois jovens se conhecem em um trem e passam uma noite caminhando por Viena, conversando sobre vida e amor.",
+    "runtime": 120,
+    "genres": [
+      "Romance",
+      "Drama"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "heat",
+    "tmdbId": 949,
+    "title": "Fogo Contra Fogo",
+    "year": 1995,
+    "director": "Michael Mann",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Um detetive obsessivo e um ladrão profissional se enfrentam em Los Angeles.",
+    "runtime": 120,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "the-usual-suspects",
+    "tmdbId": 629,
+    "title": "Os Suspeitos",
+    "year": 1995,
+    "director": "Bryan Singer",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Um criminoso sobrevivente relata eventos ligados a um massacre e a uma figura lendária.",
+    "runtime": 120,
+    "genres": [
+      "Crime",
+      "Mistério"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "toy-story",
+    "tmdbId": 862,
+    "title": "Toy Story",
+    "year": 1995,
+    "director": "John Lasseter",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Brinquedos ganham vida quando humanos não estão por perto e enfrentam ciúmes, amizade e mudança.",
+    "runtime": 120,
+    "genres": [
+      "Animação",
+      "Aventura"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "scream",
+    "tmdbId": 4232,
+    "title": "Pânico",
+    "year": 1996,
+    "director": "Wes Craven",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Um assassino mascarado aterroriza adolescentes enquanto brinca com as regras dos filmes de terror.",
+    "runtime": 120,
+    "genres": [
+      "Terror",
+      "Mistério"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "life-is-beautiful",
+    "tmdbId": 637,
+    "title": "A Vida é Bela",
+    "year": 1997,
+    "director": "Roberto Benigni",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Durante o Holocausto, um pai usa imaginação e afeto para proteger o filho dos horrores ao redor.",
+    "runtime": 120,
+    "genres": [
+      "Drama",
+      "Comédia"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "saving-private-ryan",
+    "tmdbId": 857,
+    "title": "O Resgate do Soldado Ryan",
+    "year": 1998,
+    "director": "Steven Spielberg",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Após o Dia D, soldados recebem a missão de encontrar e resgatar um paraquedista no front europeu.",
+    "runtime": 120,
+    "genres": [
+      "Guerra",
+      "Drama"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "the-truman-show",
+    "tmdbId": 37165,
+    "title": "O Show de Truman",
+    "year": 1998,
+    "director": "Peter Weir",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Truman vive uma rotina perfeita sem saber que sua vida inteira é transmitida como um programa de televisão.",
+    "runtime": 120,
+    "genres": [
+      "Drama",
+      "Comédia"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "eyes-wide-shut",
+    "tmdbId": 345,
+    "title": "De Olhos Bem Fechados",
+    "year": 1999,
+    "director": "Stanley Kubrick",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Um médico entra em uma jornada noturna de desejo, ciúme e segredos após uma confissão da esposa.",
+    "runtime": 120,
+    "genres": [
+      "Drama",
+      "Mistério"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "spirited-away",
+    "tmdbId": 129,
+    "title": "A Viagem de Chihiro",
+    "year": 2001,
+    "director": "Hayao Miyazaki",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Uma menina entra em um mundo espiritual e precisa salvar os pais enquanto amadurece em meio ao fantástico.",
+    "runtime": 120,
+    "genres": [
+      "Animação",
+      "Fantasia"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "the-lord-of-the-rings-fellowship",
+    "tmdbId": 120,
+    "title": "O Senhor dos Anéis: A Sociedade do Anel",
+    "year": 2001,
+    "director": "Peter Jackson",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Um hobbit recebe a missão de destruir um anel poderoso antes que ele caia nas mãos do mal.",
+    "runtime": 120,
+    "genres": [
+      "Fantasia",
+      "Aventura"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "the-lord-of-the-rings-two-towers",
+    "tmdbId": 121,
+    "title": "O Senhor dos Anéis: As Duas Torres",
+    "year": 2002,
+    "director": "Peter Jackson",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "A sociedade se divide enquanto a guerra pela Terra-média se aproxima e novas alianças são formadas.",
+    "runtime": 120,
+    "genres": [
+      "Fantasia",
+      "Aventura"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "the-lord-of-the-rings-return-king",
+    "tmdbId": 122,
+    "title": "O Senhor dos Anéis: O Retorno do Rei",
+    "year": 2003,
+    "director": "Peter Jackson",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "A batalha final contra Sauron decide o destino da Terra-média e da jornada do anel.",
+    "runtime": 120,
+    "genres": [
+      "Fantasia",
+      "Aventura"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "eternal-sunshine",
+    "tmdbId": 38,
+    "title": "Brilho Eterno de uma Mente sem Lembranças",
+    "year": 2004,
+    "director": "Michel Gondry",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Um casal apaga memórias de um relacionamento, mas sentimentos resistem dentro da mente.",
+    "runtime": 120,
+    "genres": [
+      "Romance",
+      "Drama"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "saw",
+    "tmdbId": 176,
+    "title": "Jogos Mortais",
+    "year": 2004,
+    "director": "James Wan",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Duas pessoas acordam presas e descobrem fazer parte de um jogo cruel criado por um assassino metódico.",
+    "runtime": 120,
+    "genres": [
+      "Terror",
+      "Suspense"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "iron-man",
+    "tmdbId": 1726,
+    "title": "Homem de Ferro",
+    "year": 2008,
+    "director": "Jon Favreau",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Um bilionário arrogante constrói uma armadura tecnológica e repensa seu papel no mundo.",
+    "runtime": 120,
+    "genres": [
+      "Ação",
+      "Ficção científica"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "her",
+    "tmdbId": 152601,
+    "title": "Ela",
+    "year": 2013,
+    "director": "Spike Jonze",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Um homem solitário se apaixona por uma inteligência artificial em um futuro próximo.",
+    "runtime": 120,
+    "genres": [
+      "Romance",
+      "Ficção científica"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "the-conjuring",
+    "tmdbId": 138843,
+    "title": "Invocação do Mal",
+    "year": 2013,
+    "director": "James Wan",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Investigadores paranormais ajudam uma família assombrada por uma presença assustadora em uma casa isolada.",
+    "runtime": 120,
+    "genres": [
+      "Terror",
+      "Suspense"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "guardians-galaxy",
+    "tmdbId": 118340,
+    "title": "Guardiões da Galáxia",
+    "year": 2014,
+    "director": "James Gunn",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Um grupo de desajustados espaciais precisa impedir que um artefato poderoso caia nas mãos erradas.",
+    "runtime": 120,
+    "genres": [
+      "Aventura",
+      "Comédia"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "grand-budapest-hotel",
+    "tmdbId": 120467,
+    "title": "O Grande Hotel Budapeste",
+    "year": 2014,
+    "director": "Wes Anderson",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Um concierge e seu jovem aprendiz se envolvem em roubo, fuga e intrigas em uma Europa fictícia.",
+    "runtime": 120,
+    "genres": [
+      "Comédia",
+      "Aventura"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "whiplash",
+    "tmdbId": 244786,
+    "title": "Whiplash",
+    "year": 2014,
+    "director": "Damien Chazelle",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Um jovem baterista enfrenta a pressão brutal de um professor em busca de excelência absoluta.",
+    "runtime": 120,
+    "genres": [
+      "Drama",
+      "Música"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "arrival",
+    "tmdbId": 329865,
+    "title": "A Chegada",
+    "year": 2016,
+    "director": "Denis Villeneuve",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Uma linguista tenta se comunicar com alienígenas recém-chegados à Terra antes que o medo provoque guerra.",
+    "runtime": 120,
+    "genres": [
+      "Ficção científica",
+      "Drama"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "deadpool",
+    "tmdbId": 293660,
+    "title": "Deadpool",
+    "year": 2016,
+    "director": "Tim Miller",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Um mercenário tagarela busca vingança após um experimento que muda sua aparência e lhe dá poderes.",
+    "runtime": 120,
+    "genres": [
+      "Ação",
+      "Comédia"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "la-la-land",
+    "tmdbId": 313369,
+    "title": "La La Land",
+    "year": 2016,
+    "director": "Damien Chazelle",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Um pianista e uma atriz tentam conciliar amor, sonhos e carreira em Los Angeles.",
+    "runtime": 120,
+    "genres": [
+      "Musical",
+      "Romance"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "moonlight",
+    "tmdbId": 376867,
+    "title": "Moonlight",
+    "year": 2016,
+    "director": "Barry Jenkins",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "A vida de um jovem é contada em três fases enquanto ele lida com identidade, afeto e sobrevivência.",
+    "runtime": 120,
+    "genres": [
+      "Drama"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "blade-runner-2049",
+    "tmdbId": 335984,
+    "title": "Blade Runner 2049",
+    "year": 2017,
+    "director": "Denis Villeneuve",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Um novo blade runner descobre um segredo capaz de abalar a relação entre humanos e replicantes.",
+    "runtime": 120,
+    "genres": [
+      "Ficção científica",
+      "Drama"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "logan",
+    "tmdbId": 263115,
+    "title": "Logan",
+    "year": 2017,
+    "director": "James Mangold",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Um Wolverine envelhecido protege uma jovem mutante em um mundo onde quase não restam heróis.",
+    "runtime": 120,
+    "genres": [
+      "Ação",
+      "Drama"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "hereditary",
+    "tmdbId": 493922,
+    "title": "Hereditário",
+    "year": 2018,
+    "director": "Ari Aster",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Uma família em luto descobre segredos perturbadores que transformam dor em horror psicológico.",
+    "runtime": 120,
+    "genres": [
+      "Terror",
+      "Drama"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "spider-man-into-spider-verse",
+    "tmdbId": 324857,
+    "title": "Homem-Aranha no Aranhaverso",
+    "year": 2018,
+    "director": "Bob Persichetti, Peter Ramsey, Rodney Rothman",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Miles Morales descobre diferentes versões do Homem-Aranha e aprende a assumir seu próprio heroísmo.",
+    "runtime": 120,
+    "genres": [
+      "Animação",
+      "Aventura"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "avengers-infinity-war",
+    "tmdbId": 299536,
+    "title": "Vingadores: Guerra Infinita",
+    "year": 2018,
+    "director": "Anthony Russo, Joe Russo",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Heróis de todo o universo se unem para tentar impedir Thanos de reunir as Joias do Infinito.",
+    "runtime": 120,
+    "genres": [
+      "Ação",
+      "Ficção científica"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "joker",
+    "tmdbId": 475557,
+    "title": "Coringa",
+    "year": 2019,
+    "director": "Todd Phillips",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Um comediante fracassado mergulha em isolamento e violência em uma Gotham socialmente doente.",
+    "runtime": 120,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "once-upon-a-time-in-hollywood",
+    "tmdbId": 466272,
+    "title": "Era Uma Vez em... Hollywood",
+    "year": 2019,
+    "director": "Quentin Tarantino",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Um ator em decadência e seu dublê atravessam uma Hollywood em transformação no fim dos anos 1960.",
+    "runtime": 120,
+    "genres": [
+      "Drama",
+      "Comédia"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "avengers-endgame",
+    "tmdbId": 299534,
+    "title": "Vingadores: Ultimato",
+    "year": 2019,
+    "director": "Anthony Russo, Joe Russo",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Após uma derrota devastadora, os Vingadores buscam uma última chance para restaurar o universo.",
+    "runtime": 120,
+    "genres": [
+      "Ação",
+      "Ficção científica"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "dune-part-one",
+    "tmdbId": 438631,
+    "title": "Duna",
+    "year": 2021,
+    "director": "Denis Villeneuve",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Um jovem herdeiro viaja para um planeta desértico vital para o império e para seu próprio destino.",
+    "runtime": 120,
+    "genres": [
+      "Ficção científica",
+      "Aventura"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "the-batman",
+    "tmdbId": 414906,
+    "title": "Batman",
+    "year": 2022,
+    "director": "Matt Reeves",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Batman investiga uma série de crimes em Gotham e encara corrupção, vingança e sua própria identidade.",
+    "runtime": 120,
+    "genres": [
+      "Crime",
+      "Ação"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "everything-everywhere",
+    "tmdbId": 545611,
+    "title": "Tudo em Todo o Lugar ao Mesmo Tempo",
+    "year": 2022,
+    "director": "Daniel Kwan, Daniel Scheinert",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Uma mulher comum atravessa multiversos para enfrentar caos, família e possibilidades infinitas.",
+    "runtime": 120,
+    "genres": [
+      "Ficção científica",
+      "Comédia"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "barbie",
+    "tmdbId": 346698,
+    "title": "Barbie",
+    "year": 2023,
+    "director": "Greta Gerwig",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Barbie deixa seu mundo perfeito e encara questões sobre identidade, realidade e expectativas sociais.",
+    "runtime": 120,
+    "genres": [
+      "Comédia",
+      "Fantasia"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "spider-man-across-spider-verse",
+    "tmdbId": 569094,
+    "title": "Homem-Aranha: Através do Aranhaverso",
+    "year": 2023,
+    "director": "Joaquim Dos Santos, Kemp Powers, Justin K. Thompson",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Miles atravessa o multiverso e entra em conflito com outros Homens-Aranha sobre destino e escolha.",
+    "runtime": 120,
+    "genres": [
+      "Animação",
+      "Aventura"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "oppenheimer",
+    "tmdbId": 872585,
+    "title": "Oppenheimer",
+    "year": 2023,
+    "director": "Christopher Nolan",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "A trajetória de Oppenheimer revela ciência, ambição, guerra e culpa na criação da bomba atômica.",
+    "runtime": 120,
+    "genres": [
+      "Drama",
+      "Histórico"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "anora",
+    "tmdbId": 1064213,
+    "title": "Anora",
+    "year": 2024,
+    "director": "Sean Baker",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Uma jovem de Nova York vive um romance inesperado com o filho de um oligarca, mas o conto de fadas entra em colapso.",
+    "runtime": 120,
+    "genres": [
+      "Drama",
+      "Comédia"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  },
+  {
+    "id": "dune-part-two",
+    "tmdbId": 693134,
+    "title": "Duna: Parte Dois",
+    "year": 2024,
+    "director": "Denis Villeneuve",
+    "actors": [
+      "A carregar pela API"
+    ],
+    "synopsis": "Paul Atreides se une aos Fremen e encara escolhas que podem transformar o destino de Arrakis.",
+    "runtime": 120,
+    "genres": [
+      "Ficção científica",
+      "Aventura"
+    ],
+    "rating": 8.0,
+    "poster": "",
+    "featured": false,
+    "arcade": true
+  }
+]

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arcades | MovieArcade</title>
+  <meta name="theme-color" content="#050505">
+  <link rel="icon" type="image/svg+xml" href="../assets/img/logo_m.svg">
+  <link rel="apple-touch-icon" href="../assets/img/logo_m.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/arcades.css">
+</head>
+<body data-page="arcades">
+  <header class="site-header">
+    <nav class="page nav">
+      <a class="brand" data-link="index" href="../index.html">
+        <img class="brand-logo" src="../assets/img/logo_stars.svg" alt="MovieArcade">
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Abrir menu" data-menu-toggle>☰</button>
+      <div class="nav-links" data-nav-links>
+        <a class="nav-link" data-link="home" href="../pages/home.html">Home</a>
+        <a class="nav-link" data-link="arcades" href="../pages/arcades.html">Arcades</a>
+        <a class="nav-link" data-link="movies" href="../pages/movies.html">Movies</a>
+        <a class="nav-link" data-link="about" href="../pages/about.html">About</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main page">
+    <!-- Arcade intro -->
+    <section class="reveal">
+      <p class="eyebrow">arcade room</p>
+      <h1 class="section-title">Arcades do site</h1>
+      <p class="section-subtitle">Todos os jogos usam a mesma base de 100 filmes. Quando o catálogo crescer, os arcades também ficam maiores.</p>
+    </section>
+
+    <!-- Arcade cards -->
+    <section class="grid grid-3 section-spacing">
+      <a class="card arcade-card" data-link="quizzes" href="arcades/quizzes.html"><div><strong>Quizzes</strong><p>Adivinhe o filme pela sinopse, pelo ano de lançamento ou pelo poster desfocado.</p></div><span class="status">Jogar agora</span></a>
+      <a class="card arcade-card" data-link="roulette" href="arcades/roulette.html"><div><strong>Roleta</strong><p>Roleta tradicional com seleção manual ou aleatória.</p></div><span class="status">Jogar agora</span></a>
+      <a class="card arcade-card" data-link="versus" href="arcades/versus.html"><div><strong>Versus</strong><p>Escolha entre dois filmes. O vencedor permanece até o duelo final.</p></div><span class="status">Jogar agora</span></a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="page footer-row">
+      <span>Made for movie lovers.</span>
+      <span>Developed by <a href="https://github.com/devkevinsramos" target="_blank" rel="noreferrer">@devkevinsramos</a></span>
+    </div>
+  </footer>
+  <script src="../assets/js/script.js"></script>
+</body>
+</html>

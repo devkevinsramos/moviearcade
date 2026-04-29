@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movies | MovieArcade</title>
+  <meta name="theme-color" content="#050505">
+  <link rel="icon" type="image/svg+xml" href="../assets/img/logo_m.svg">
+  <link rel="apple-touch-icon" href="../assets/img/logo_m.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/movies.css">
+</head>
+<body data-page="movies">
+  <header class="site-header">
+    <nav class="page nav">
+      <a class="brand" data-link="index" href="../index.html">
+        <img class="brand-logo" src="../assets/img/logo_stars.svg" alt="MovieArcade">
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Abrir menu" data-menu-toggle>☰</button>
+      <div class="nav-links" data-nav-links>
+        <a class="nav-link" data-link="home" href="../pages/home.html">Home</a>
+        <a class="nav-link" data-link="arcades" href="../pages/arcades.html">Arcades</a>
+        <a class="nav-link" data-link="movies" href="../pages/movies.html">Movies</a>
+        <a class="nav-link" data-link="about" href="../pages/about.html">About</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main page">
+    <!-- Movies intro -->
+    <section class="reveal">
+      <p class="eyebrow">movie base</p>
+      <h1 class="section-title">Filmes presentes no MovieArcade</h1>
+      <p class="section-subtitle">Explore a curadoria principal do MovieArcade. O catálogo carrega 20 filmes por vez para manter a navegação leve e organizada.</p>
+    </section>
+
+    <!-- Search and count -->
+    <section class="section-spacing">
+      <div class="toolbar movies-toolbar">
+        <input class="search" data-movie-search placeholder="Pesquisar por filme, diretor, ator, gênero ou ano...">
+        <span class="count-badge" data-movie-count>Carregando filmes...</span>
+      </div>
+
+      <div class="grid grid-2 movies-grid" data-movies-grid data-page-size="20"></div>
+
+      <div class="load-more-row">
+        <button class="btn btn-primary" data-load-more-movies>Ver mais</button>
+      </div>
+    </section>
+
+    <!-- Lists preview in movies -->
+    <section class="lists-preview">
+      <div class="toolbar">
+        <div><p class="eyebrow">lists</p><h2 class="section-title">Listas por gênero</h2></div>
+        <a class="btn btn-ghost" data-link="lists" href="../pages/movies/lists.html">Abrir listas</a>
+      </div>
+      <div class="grid grid-3" data-lists-grid data-lists-limit="3"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="page footer-row">
+      <span>Made for movie lovers.</span>
+      <span>Developed by <a href="https://github.com/devkevinsramos" target="_blank" rel="noreferrer">@devkevinsramos</a></span>
+    </div>
+  </footer>
+  <script src="../assets/js/script.js"></script>
+  <script src="../assets/js/api.js"></script>
+  <script src="../assets/js/movies.js"></script>
+  <script src="../assets/js/lists.js"></script>
+</body>
+</html>

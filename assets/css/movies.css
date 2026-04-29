@@ -1,0 +1,23 @@
+/* ==============================
+   MovieArcade - Movies CSS
+   Styles only for movies/lists pages
+   ============================== */
+
+/* ---------- Movies toolbar ---------- */
+.movies-toolbar {
+  align-items: center;
+}
+
+/* ---------- Movies page spacing ---------- */
+.movies-grid {
+  align-items: stretch;
+}
+
+/* ---------- Lists page cards ---------- */
+.list-card h3 {
+  color: var(--text);
+}
+
+.list-card p {
+  color: var(--muted);
+}

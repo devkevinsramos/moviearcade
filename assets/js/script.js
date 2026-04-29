@@ -1,34 +1,93 @@
-// =========================
-// BOTÃO DA INDEX
-// =========================
+// ==============================
+// MovieArcade - Global helpers
+// ==============================
+const MovieArcade = (() => {
+  // ---------- Relative paths ----------
+  const path = window.location.pathname;
+  const isNested = path.includes('/pages/arcades/') || path.includes('/pages/movies/');
+  const isPage = path.includes('/pages/') && !isNested;
+  const prefix = isNested ? '../../' : isPage ? '../' : '';
+  const dataPath = `${prefix}assets/data/movies.json`;
 
-const welcomeBtn = document.getElementById("welcomeBtn");
-const message = document.getElementById("message");
+  // ---------- Global links ----------
+  const links = {
+    index: `${prefix}index.html`,
+    home: `${prefix}pages/home.html`,
+    arcades: `${prefix}pages/arcades.html`,
+    movies: `${prefix}pages/movies.html`,
+    about: `${prefix}pages/about.html`,
+    quizzes: `${prefix}pages/arcades/quizzes.html`,
+    roulette: `${prefix}pages/arcades/roulette.html`,
+    versus: `${prefix}pages/arcades/versus.html`,
+    lists: `${prefix}pages/movies/lists.html`,
+    sorry: `${prefix}pages/sorry.html`
+  };
 
-if (welcomeBtn && message) {
-  welcomeBtn.addEventListener("click", () => {
-    message.textContent = "Bem-vindo ao MovieArcade. O projeto começou oficialmente.";
-  });
-}
+  // ---------- Data helpers ----------
+  async function getMovies() {
+    const response = await fetch(dataPath);
+    if (!response.ok) throw new Error('Não foi possível carregar a base de filmes.');
+    return response.json();
+  }
 
-// =========================
-// POSTS RECENTES - VER MAIS
-// =========================
+  function posterMarkup(movie) {
+    if (movie.poster) {
+      return `<img src="${movie.poster}" alt="Poster de ${movie.title}" loading="lazy">`;
+    }
+    return `<span>${movie.title}</span>`;
+  }
 
-const toggleButton = document.getElementById("feedToggleButton");
-const hiddenCards = document.querySelectorAll(".feed-card-hidden");
-const toggleText = document.querySelector(".feed-toggle-text");
+  function filterMovies(movies, term) {
+    const query = term.trim().toLowerCase();
+    if (!query) return movies;
 
-if (toggleButton && hiddenCards.length > 0 && toggleText) {
-  toggleButton.addEventListener("click", () => {
-    const isExpanded = toggleButton.classList.contains("active");
+    return movies.filter((movie) => {
+      const searchable = [
+        movie.title,
+        movie.director,
+        movie.year,
+        movie.synopsis,
+        ...(movie.actors || []),
+        ...(movie.genres || [])
+      ].join(' ').toLowerCase();
 
-    hiddenCards.forEach((card) => {
-      card.classList.toggle("show");
+      return searchable.includes(query);
     });
+  }
 
-    toggleButton.classList.toggle("active");
-    toggleButton.setAttribute("aria-expanded", String(!isExpanded));
-    toggleText.textContent = isExpanded ? "Ver mais" : "Ver menos";
-  });
-}
+  function shuffle(list) {
+    return [...list].sort(() => Math.random() - 0.5);
+  }
+
+  function pickRandom(items) {
+    return items[Math.floor(Math.random() * items.length)];
+  }
+
+  // ---------- Header interactions ----------
+  function setupMenu(activePage = '') {
+    const toggle = document.querySelector('[data-menu-toggle]');
+    const menu = document.querySelector('[data-nav-links]');
+
+    if (toggle && menu) {
+      toggle.addEventListener('click', () => menu.classList.toggle('open'));
+    }
+
+    document.querySelectorAll('[data-link]').forEach((item) => {
+      const key = item.dataset.link;
+
+      if (links[key]) {
+        item.href = links[key];
+      }
+
+      if (key === activePage) {
+        item.classList.add('active');
+      }
+    });
+  }
+
+  return { prefix, dataPath, links, getMovies, posterMarkup, filterMovies, shuffle, pickRandom, setupMenu };
+})();
+
+document.addEventListener('DOMContentLoaded', () => {
+  MovieArcade.setupMenu(document.body.dataset.page || '');
+});

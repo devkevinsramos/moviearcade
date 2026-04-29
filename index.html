@@ -1,98 +1,72 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <!-- Configurações básicas da página -->
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <!-- Ícone e metadados -->
-  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
-  <link rel="apple-touch-icon" href="assets/img/favicon.svg" />
-  <meta name="theme-color" content="#05070a" />
-  <meta
-    name="description"
-    content="MovieArcade é um projeto visual sobre cinema, minigames e experiência interativa."
-  />
-
-  <!-- Título da aba -->
-  <title>MovieArcade</title>
-
-  <!-- Fonte principal -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
-    rel="stylesheet"
-  />
-
-  <!-- CSS principal -->
-  <link rel="stylesheet" href="assets/css/style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lobby | MovieArcade</title>
+  <meta name="theme-color" content="#050505">
+  <link rel="icon" type="image/svg+xml" href="assets/img/logo_m.svg">
+  <link rel="apple-touch-icon" href="assets/img/logo_m.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body id="top">
+<body data-page="index">
+  <!-- Header global -->
+  <header class="site-header">
+    <nav class="page nav">
+      <a class="brand" data-link="index" href="index.html">
+        <img class="brand-logo" src="assets/img/logo_stars.svg" alt="MovieArcade">
+      </a>
 
-  <!-- Cabeçalho principal -->
-  <header class="header">
-    <a href="index.html" class="logo" aria-label="Ir para a página inicial do MovieArcade">
-      <img src="assets/img/logo.svg" alt="Logo MovieArcade" class="logo-icon" />
-    </a>
+      <button class="menu-toggle" type="button" aria-label="Abrir menu" data-menu-toggle>☰</button>
 
-    <nav class="nav" aria-label="Menu principal">
-      <a href="pages/home.html">Home</a>
-      <a href="pages/sorry.html">Movies</a>
-      <a href="pages/sorry.html">Arcades</a>
-      <a href="pages/sorry.html">Sobre</a>
+      <div class="nav-links" data-nav-links>
+        <a class="nav-link" data-link="home" href="pages/home.html">Home</a>
+        <a class="nav-link" data-link="arcades" href="pages/arcades.html">Arcades</a>
+        <a class="nav-link" data-link="movies" href="pages/movies.html">Movies</a>
+        <a class="nav-link" data-link="about" href="pages/about.html">About</a>
+      </div>
     </nav>
   </header>
 
-  <main>
-    <!-- Hero principal -->
-    <section class="hero hero-landing">
-      <!-- Texto principal -->
-      <div class="hero-text">
-        <h1>
-          Bem-vindo ao <span class="accent">MovieArcade!</span>
-        </h1>
-
-        <p>
-          Descubra uma experiência marcante, explore novas formas de interagir
-          com o cinema e entre no mundo do MovieArcade.
+  <main class="hero page">
+    <section class="hero-grid">
+      <!-- Texto principal do lobby -->
+      <div class="reveal">
+        <p class="eyebrow">start lobby</p>
+        <h1 class="title">Bem-vindo ao<br><span class="title-accent">MovieArcade.</span></h1>
+        <p class="lead">
+          Um projeto interativo focado em arcades de filmes, trazendo a sétima arte para o mundo dos minigames com o desenvolvimento front-end.
         </p>
 
-        <div class="hero-actions">
-          <a href="pages/home.html" class="btn btn-primary">Conheça o projeto</a>
-          <a href="pages/sorry.html" class="btn btn-secondary">Saiba mais</a>
+        <div class="actions">
+          <a class="btn btn-primary" data-link="home" href="pages/home.html">Conheça o projeto</a>
+          <a class="btn btn-ghost" data-link="about" href="pages/about.html">Ver sobre</a>
         </div>
       </div>
 
-      <!-- Bloco visual -->
-      <div class="hero-visual">
-        <div class="hero-side">
-          <span class="hero-badge">Listas • Reviews • Minigames</span>
-
-          <div class="hero-media">
-            <video class="hero-video" autoplay loop muted playsinline>
-              <source src="assets/img/martymauser.mp4" type="video/mp4" />
-            </video>
-          </div>
+      <!-- Card lateral com vídeo em loop -->
+      <article class="panel media-card reveal delay">
+        <div class="media-shell">
+          <video autoplay muted loop playsinline>
+            <source src="assets/img/mov/martymauser.mp4" type="video/mp4">
+          </video>
         </div>
-      </div>
-    </section>
-
-    <!-- Apresentação do projeto -->
-    <section class="about-project" id="about-project">
-      <div class="about-content">
-        <p>
-          Juntando hobby com desenvolvimento de software, este é o objetivo do meu projeto. Muito prazer, sou o
-          <strong>
-            <a href="https://github.com/devkevinsramos" target="_blank" rel="noopener noreferrer">
-              @devkevinsramos,
-            </a>
-          </strong>
-          um desenvolvedor apaixonado por cinema.
-        </p>
-      </div>
+        <div class="media-label media-quote">
+          <span>"Dream big."</span>
+        </div>
+      </article>
     </section>
   </main>
+
+  <footer class="footer">
+    <div class="page footer-row">
+      <span>Made for movie lovers.</span>
+      <span>Developed by <a href="https://github.com/devkevinsramos" target="_blank" rel="noreferrer">@devkevinsramos</a></span>
+    </div>
+  </footer>
 
   <script src="assets/js/script.js"></script>
 </body>
